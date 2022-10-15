@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.section1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F7EFEE;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 12px 30px;
+}
+
+.mainnav {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.hero {
+    background-image: url("mountains-blue-sky-mountain-range-fog-peak-4256x2832-5364.jpg");
+    height: 88%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.threecontents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.threecontents h5 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.threecontents h1 {
+    font-size: 130px;
+    letter-spacing: 3px;
+}
+
+.threecontents .btn {
+    padding: 20px 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    display: flex;
+    margin: 3px;
+    margin-top: 20px;
+
+}
+
+.aboutme {
+    height: 100vh;
+    width: 100%;
+}
+
+.aboutme .parent {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+
+}
+
+.parent h1{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.parent .me {
+    margin-top: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    justify-content: space-around;
+    word-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 85%;
+    font-size: 15px;
+
+}
+
+.parent .img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    /* margin: 100px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.me .btn {
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 220px;
+    margin-top: 20px;
+
+}
+
+.flex {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1573014893654-f0fe6022bfa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNlYSUyMG9mJTIwY2xvdWRzfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;}
+
+.box {
+    border: 3px solid black;
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .contact {
+    width: 50%;
+}
+
+.box .div1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.box .explanation {
+    font-size: 12px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.box .btn1 {
+    width: 150px;
+    height: 3px;
+    background-color: black;
+}
+
+.box .btn {
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    margin-left: 25px;
+
+}
+
+.box .price {
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /* margin-left: 60px; */
+}
+
+.footer1 {
+    background-color: #A7C7E7;
+    height: 80vh;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.contact .h {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.forms {
+    padding: 20px;
+}
+
+.forms .btn {
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 90px;
+    margin-top: 10px;
+    
+}
+
+.socialmedia {
+    list-style: none;
+    display: flex;
+    margin: 2px;
+}
+
+.socialmedia li {
+    margin: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    color: black;
+}
+
+.textarea {
+    width: 180px;
+}
+
+@media (max-width: 400px) {
+    .threecontents h5 {
+        width: auto;
+        font-size: 10px;
+    }
+
+    .threecontents h1 {
+        width: auto;
+        font-size: 40px;
+    }
+
+    .threecontents .btn {
+        padding: 8px 8px;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        align-self: center;
+        display: flex;
+        margin: 3px solid black;
+
+    }
+
+    .aboutme {
+        height: fit-content;
+    }
+
+    .aboutme .parent {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .me {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .parent .img {
+        width: 100%;
+        object-fit: cover;
+        justify-content: center;
+        text-align: center;
+    }
+    .flex{
+        height: fit-content;
+    }
+    .box{
+        width: 250px;
+        margin-bottom: 20px;
+    }
+   .parent .img{
+    padding: 20px;
+   }
+   .header{
+    display: none;
+   }
+
+
+
+}
